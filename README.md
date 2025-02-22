@@ -44,7 +44,10 @@ Within your code, consider the scope of the inputs and how the different paramet
 
 Finally, please update your README with a brief description of your methods. 
 
+## Methods Description
+forward() takes in an observation sequence and HMM parameters: hidden states and prior, transition, and emission possibilities. The algorithm finds the chance of seeing a specific set of events by adding up all possible ways these events could happen. The output is a float value which is the likelihood of observing the given sequence given the HMM parameters.
 
+viterbi() is similar to forward() and takes the same input, but instead finds the most likely path of hidden states (the best explanation) that could produce the observed sequence. It outputs a list of hidden states that is the most likely explanation for the observed sequence.
 
 ## Task List
 

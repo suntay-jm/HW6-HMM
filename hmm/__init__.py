@@ -1,6 +1,6 @@
 """
 UCSF BMI203: Biocomputing Algorithms 2024
-Author:
+Author: Matt Suntay
 Date:
 Package: 
 Description: 
